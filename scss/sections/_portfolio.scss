@@ -18,9 +18,6 @@
     padding:3rem;
     margin-bottom: 1.2rem;
     border-top: 0.4rem solid $purple-light;
-    @include media-breakpoint-down(md){
-        padding: 4rem;
-    }
 
     img{
         width: 100%;
