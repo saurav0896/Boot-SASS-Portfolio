@@ -1,0 +1,30 @@
+// Pulse Border
+@keyframes pulse-border {
+    0%  {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+@keyframes linewidth {
+    0%{
+        width: 0rem;
+    }
+    100%{
+        width: 17rem;
+    }
+}
+
+@keyframes ImageHover {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.1);
+    }
+}

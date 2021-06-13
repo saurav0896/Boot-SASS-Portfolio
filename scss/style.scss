@@ -1,0 +1,18 @@
+// Import custom theme file
+@use "custom";
+
+//Import components
+@use "components/animations";
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typogragphy";
+
+//Import Sections
+@use "sections/navbar";
+@use "sections/intro-section";
+@use "sections/companies";
+@use "sections/services";
+@use "sections/testimonials";
+@use "sections/portfolio";
+@use "sections/contacts";
+@use "sections/footer";

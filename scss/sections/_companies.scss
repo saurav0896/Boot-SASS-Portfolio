@@ -1,0 +1,18 @@
+.tech{
+    padding: 0 0 5rem 0;
+
+    &_logo-box{
+        text-align: center;
+        width: 100%;
+        height: 3rem;
+        margin-bottom: 2.5rem;
+
+        img{
+            height: 100%;
+        }
+        &:hover{
+            animation: ImageHover 2s linear;
+        }
+    }
+
+}

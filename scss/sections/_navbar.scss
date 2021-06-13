@@ -1,0 +1,29 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+
+.logo{
+    color: $white !important;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 0.4rem;
+
+    &:hover{
+        animation: ImageHover 1s linear;
+    }
+    
+}
+
+.menu{
+    @include gradient;
+
+    li {
+        padding: 0 0.7rem;
+
+        a{
+            color: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}

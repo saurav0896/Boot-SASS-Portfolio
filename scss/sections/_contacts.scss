@@ -1,0 +1,22 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.contacts{
+    padding: 4rem 0;
+    background-color: $gray-200;
+
+    &_illustration{
+        @include gradient;
+        padding: 3rem;
+        
+        img{
+           &:hover{
+                animation: ImageHover 1s linear;
+            }
+        }
+        
+    }
+    .form{
+        padding: 2rem;
+    }
+}
